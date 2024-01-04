@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-color {
+  background-color: rgb(0, 0, 0);
+}
+
+@media (prefers-color-scheme: dark) {
+  .bg-color {
+    background-color: rgb(255, 255, 255);
+  }
+}
