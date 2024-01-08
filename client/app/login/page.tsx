@@ -1,7 +1,12 @@
 import React from 'react'
+import LoginForm from '../components/LoginForm/LoginForm'
 
 function loginPage() {
-  return <div>loginPage</div>
+  return (
+    <div>
+      <LoginForm />
+    </div>
+  )
 }
 
 loginPage.propTypes = {}
