@@ -1,6 +1,8 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
+
+// variables d'environnement
 const dotenv = require("dotenv");
 dotenv.config();
 const JWT_TOKEN = process.env.JWT_TOKEN;
@@ -8,6 +10,7 @@ const JWT_TOKEN = process.env.JWT_TOKEN;
 const User = require('../models/User');
 
 exports.signup = (req, res, next) => {
+    
     bcrypt.hash(req.body.password, 10)
     .then(hash => {
         const user = new User({
