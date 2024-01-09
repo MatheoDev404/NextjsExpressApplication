@@ -3,12 +3,12 @@ import React from 'react'
 function LoginForm() {
   return (
     <div>
-      <form action="" method="post">
-        <label htmlFor="first">First name:</label>
-        <input type="text" id="first" name="first" />
-        <label htmlFor="last">Last name:</label>
-        <input type="text" id="last" name="last" />
-        <button type="submit">Submit</button>
+      <form action="localhost:8080/api/auth/signup" method="post">
+        <label htmlFor="userEmail">email:</label>
+        <input type="text" id="userEmail" name="userEmail" />
+        <label htmlFor="password">password:</label>
+        <input type="password" id="password" name="password" />
+        <button type="submit">Connexion</button>
       </form>
     </div>
   )
