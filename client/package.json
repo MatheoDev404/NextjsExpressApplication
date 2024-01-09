@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^9.0.0",
+    "formik": "^2.4.5",
     "next": "^14.0.4",
     "node": "^21.2.0",
     "prettier": "^3.0.3",
