@@ -49,6 +49,11 @@ function Header() {
               Login
             </Link>
           </li>
+          <li>
+            <Link className="py-2 md:mx-4" href="/signup">
+              Signup
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
